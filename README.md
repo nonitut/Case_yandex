@@ -1,6 +1,6 @@
 ## Проект Лендинга
 
-[(ссылка-на-сайт](https://nonitut.github.io/Case_yandex/))
+[ссылка-на-сайт](https://nonitut.github.io/Case_yandex/)
 
 Адаптивный лендинг, сверстанный по макету в Figma. Использован стек: HTML + CSS + чистый JS.
 Особенности:
