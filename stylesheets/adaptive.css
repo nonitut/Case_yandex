@@ -1,0 +1,264 @@
+@media screen and (min-width: 1px) and (max-width: 450px)  {
+    .participants__card {
+    min-width: 90%; 
+    margin: 0 auto;
+    }
+    .footer {
+    height: 32vw;
+    position: relative;
+    padding: 2vw 6vw;
+    font-size: 0.9vw;
+    color: var(--color-text-primary);
+    }
+    .participants__button{
+    color: #fff;
+    width: 6vw;
+    height: 6vw;
+    font-size: 2vw;
+    border-radius: 100%;
+    border: none;
+    background: var(--color-text-primary);
+    margin: 0 6%;
+    }
+    .hero{
+        flex-direction: column;
+        width: 100%;
+        height: 160vw;
+    }
+    .hero__title{
+        font-size: 10vw;
+    }
+    .hero__description {
+    text-align: left;
+    margin-top: 2.3vw;
+    font-size: 4vw;
+}
+.hero__sun{
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.chess {
+    /* position: absolute; */
+    pointer-events: none;
+    z-index: 100;
+    width: 200%;
+    margin-left: -100%;
+    margin-top: 60%;
+}
+.hero__buttons{
+    position: absolute;
+    flex-direction: column;
+    z-index: 10000;
+}
+.button {
+    text-align: center;
+    width: 90vw;
+    height: 10vw;
+    font-size: 5vw;
+    border-radius: 66px;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 2%;
+}
+.button--secondary{
+    background: white;
+}
+
+.hero-message{
+    height: 6vw;
+}
+.hero-message__text h1{
+    font-size: 4vw;
+}
+
+.header__logo img{
+    width: 50vw;
+    margin-top: 2%;
+}
+.lecture{
+
+    flex-direction: column;
+}
+.lecture__text{
+    display: none;
+}
+.lecture__text__mobile{
+    font-size: 8vw;
+    text-align: left;
+    width: 90vw;
+    line-height: 135%;
+}
+.simultaneous__image img{ 
+    width: 90%;
+}
+.simultaneous{
+    font-size: 7vw;
+    flex-direction: column;
+    line-height: 135%;
+}
+.event-info__value p, .event-info__label p{
+    font-size: 4vw;
+    margin: 0 0;
+    line-height: 150%;
+}
+.event-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 6% auto;
+}
+.event-info__label {
+    text-align: left;
+    border-right: none ;
+    
+}
+.event-info__label{
+    border-bottom: none;
+} .event-info__value {
+    border-bottom: 1px solid #D0D0D0;
+    margin-bottom: 2%;
+}
+.event-info__text {
+    font-size: 4vw;
+}
+.stages{
+    display: none;
+}
+
+    .stages_mobile h1{
+        font-size: 8vw;
+        text-align: left;
+        width: 90vw;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    
+    .stages_mobile p{
+        color: var(--color-button-br);
+        font-size: 4vw;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .footer-message__text h1{
+        font-size: 4vw;
+    }
+    .footer-message{
+        height: 6vw;
+    }
+
+    .participants__carousel{
+        display: none;
+    }
+
+    .participants__carousel__mobile{
+        display: block;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        height: 10%;
+        align-items: center;
+        margin-top: 6%;
+        margin-bottom: 16%;
+    }
+    .participants__button{
+        height: 6vw;
+        width: 6vw;
+        font-size: 4vw;
+    }
+    .participants__title{
+        font-size: 8vw;
+
+    }
+    .participants__card-title{
+        font-size: 6vw;
+        margin: 2% auto;
+    }
+    .participants__card-subtitle{
+        font-size: 4vw;
+        margin: 2% auto;
+    }
+    .footer {
+        font-size: 4vw;
+        background: #E9DED4;
+    }
+    .participants__title__div{
+        margin-top: 6%;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 768px) {
+    .card {
+            flex: 0 0 100%;
+            max-width: 100%;
+    }
+    .participants__card {
+        min-width: 45%; 
+    }
+    .carousel__button {
+    width: 6vw;
+    height: 6vw;
+    }
+    .carousel__status {
+    font-size: 2vw;
+    }
+    .participants__title {
+    font-size: 4vw;
+    }
+    .lecture__text__mobile{
+        display: none;
+    }
+    .stages_mobile{
+        display: none;
+    }
+    .participants__carousel__mobile{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .card {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .lecture__text__mobile{
+        display: none;
+    }
+    .stages_mobile{
+        display: none;
+    }
+        .participants__carousel__mobile{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) { 
+    .lecture__text__mobile{
+        display: none;
+    }
+    .stages_mobile{
+        display: none;
+    }
+        .participants__carousel__mobile{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+        .lecture__text__mobile{
+        display: none;
+    }
+    .stages_mobile{
+        display: none;
+    }
+        .participants__carousel__mobile{
+        display: none;
+    }
+}
+
+

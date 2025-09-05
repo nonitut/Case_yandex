@@ -1,0 +1,98 @@
+@font-face {
+font-family: "Merriweather-Light";
+src: url("../fonts/Merriweather/Merriweather-Light.ttf") format("truetype");
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face {
+font-family: "Merriweather-Light";
+src: url("../fonts/Merriweather/Merriweather-LightItalic.ttf") format("truetype");
+font-weight: 300;
+font-style: italic;
+}
+
+@font-face {
+font-family: "Merriweather-Regular";
+src: url("../fonts/Merriweather-Regular.ttf") format("truetype");
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: "Merriweather-Italic";
+src: url("../fonts/Merriweather/Merriweather-Italic.ttf") format("truetype");
+font-weight: 400;
+font-style: italic;
+}
+
+@font-face {
+font-family: "Merriweather-Bold";
+src: url("../fonts/Merriweather/Merriweather-Bold.ttf") format("truetype");
+font-weight: 600;
+font-style: normal;
+}
+
+@font-face {
+font-family: "Merriweather-Bold";
+src: url("../fonts/Merriweather/Merriweather-BoldItalic.ttf") format("truetype");
+font-weight: 600;
+font-style: italic;
+}
+
+@font-face {
+font-family: "Merriweather-Black";
+src: url("../fonts/Merriweather/Merriweather-Black.ttf") format("truetype");
+font-weight: 900;
+font-style: normal;
+}
+
+@font-face {
+font-family: "Merriweather-Black";
+src: url("../fonts/Merriweather/Merriweather-BlackItalic.ttf") format("truetype");
+font-weight: 900;
+font-style: italic;
+}
+
+
+@font-face {
+font-family: "GolosText-Regular";
+src: url("../fonts/GolosText-Regular.ttf") format("truetype");
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: "GolosText-Medium";
+src: url("../fonts/GolosText-Medium.ttf") format("truetype");
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: "GolosText-SemiBold";
+src: url("../fonts/GolosText-SemiBold.ttf") format("truetype");
+font-weight: 600;
+font-style: normal;
+}
+
+@font-face {
+font-family: "GolosText-Bold";
+src: url("../fonts/GolosText-Bold.ttf") format("truetype");
+font-weight: 700;
+font-style: normal;
+}
+
+@font-face {
+font-family: "GolosText-ExtraBold";
+src: url("../fonts/GolosText-ExtraBold.ttf") format("truetype");
+font-weight: 800;
+font-style: normal;
+}
+
+@font-face {
+font-family: "GolosText-Black";
+src: url("../fonts/GolosText-Black.ttf") format("truetype");
+font-weight: 900;
+font-style: normal;
+}
